@@ -1,0 +1,81 @@
+{
+    "author": "tomcat94@ymail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "sonic-time",
+    "pebble": {
+        "displayName": "Sonic Time",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_ANIMATE": 2,
+            "KEY_APNG": 4,
+            "KEY_BG": 3,
+            "KEY_SHOW_BATTERY": 0,
+            "KEY_SHOW_BLUETOOTH": 1
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/pebbleIcon.png",
+                    "menuIcon": true,
+                    "name": "ICON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/nobtIcon.png",
+                    "name": "IMAGE_NOBTC",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/btIcon.png",
+                    "name": "IMAGE_BTC",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/chargeIcon.png",
+                    "name": "IMAGE_CHARGE",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/watchIcon.png",
+                    "name": "IMAGE_WATCH",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/eh_bg.png",
+                    "name": "IMAGE_EHBG",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/NotALot.ttf",
+                    "name": "FONT_HUD_16",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/04B03.TTF",
+                    "name": "FONT_BIGTIME_16",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "file": "data/eh_apng.png",
+                    "name": "IMAGE_EHAPNG",
+                    "type": "raw"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "22ad7729-6cba-42a0-a77f-c576254624a9",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
